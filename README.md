@@ -1,18 +1,18 @@
 # Security Lab de Ana Luísa Valeriano
 
-Este repositório é o meu laboratório pessoal de cibersegurança, onde aplico e documento meus estudos em projetos práticos.
+Olá! Este repositório é o meu laboratório pessoal de cibersegurança, onde aplico e documento meus estudos em projetos práticos.
 
-Eu sou **Ana Luísa Valeriano Bomfim**, estudante de Ciência da Computação na UFJ e com grande interesse pela área de Segurança da Informação. Meu foco é o desenvolvimento de uma carreira em **Blue Team** e **testes de penetração**.
+Eu sou **Ana Luísa Valeriano Bomfim**, estudante de Ciência da Computação na UFJ e apaixonada pela área de Segurança da Informação. Meu foco é o desenvolvimento de uma carreira em **Blue Team** e **testes de penetração**.
 
 Este espaço serve como um portfólio técnico para demonstrar minhas habilidades em Python, análise de logs, reconhecimento de redes e governança.
 
 ---
 
-## 📂 Projetos
+## Projetos
 
 Aqui estão os scripts e ferramentas que desenvolvi, organizados por área:
 
-### 1.  Blue Team (Defesa e Análise)
+### 1. Blue Team (Defesa e Análise)
 
 Projetos focados em detecção, monitoramento e resposta a incidentes.
 
@@ -21,10 +21,14 @@ Projetos focados em detecção, monitoramento e resposta a incidentes.
     * **Habilidades:** `Python`, `Análise de Logs`, `Resposta a Incidentes`.
 
 * **[1.2 - Verificador de Reputação de IP](/1-blue-team/1.2-ip-reputation-checker/)**
-    * **Descrição:** Script que consome a API do AbuseIPDB (ou outra) para verificar se um endereço IP é conhecido por atividades maliciosas (Spam, C2, etc.).
+    * **Descrição:** Script que consome a API do AbuseIPDB para verificar se um endereço IP é conhecido por atividades maliciosas (Spam, C2, etc.).
     * **Habilidades:** `Python`, `Consumo de API`, `Threat Intelligence`.
 
-### 2.  Offensive Security (Red Team & Pentest)
+* **[1.3 - Monitor de Integridade de Arquivos (FIM)](/1-blue-team/1.3-file-integrity-monitor/)**
+    * **Descrição:** Script que usa hashes SHA256 para criar uma baseline de arquivos e detectar alterações, adições ou remoções não autorizadas.
+    * **Habilidades:** `Python (hashlib)`, `Hashing`, `Monitoramento de Sistemas`.
+
+### 2. Offensive Security (Red Team & Pentest)
 
 Ferramentas e scripts que simulam as fases de um ataque, desde o reconhecimento até a pós-exploração.
 
@@ -40,30 +44,30 @@ Ferramentas e scripts que simulam as fases de um ataque, desde o reconhecimento 
     * **Descrição:** Par de scripts (servidor/cliente) para estabelecer um shell reverso básico (Fase: Exploração/C2).
     * **Habilidades:** `Python (Sockets)`, `Pós-Exploração`.
 
-### 3.  Governança e LGPD
+### 3. Governança e LGPD
 
 Scripts focados em conformidade, gestão de riscos e proteção de dados.
 
 * **[3.1 - Scanner de Dados Sensíveis (LGPD)](/3-governance-lgpd/3.1-sensitive-data-scanner/)**
-    * **Descrição:** Script que varre arquivos (`.txt`, `.csv`) em um diretório local em busca de padrões que correspondam a dados sensíveis (ex: CPFs, e-mails), usando expressões regulares (Regex).
+    * **Descrição:** (Em desenvolvimento) Script que varre arquivos locais em busca de padrões de dados sensíveis (CPFs, etc.) usando Regex.
     * **Habilidades:** `Python`, `Regex`, `Governança (LGPD/DLP)`.
 
 ---
 
-##  Tecnologias e Conceitos
+## Tecnologias e Conceitos
 
 As principais ferramentas e conceitos que estou aplicando neste laboratório incluem:
 
 * **Linguagem:** Python
-* **Conceitos de Segurança:** Análise de Incidentes (Blue Team), Testes de Penetração (Recon), Governança (LGPD, Gestão de Riscos), Análise de Logs. 
-* **Redes e Sistemas:** Protocolos (TCP, DNS, HTTP), Administração Básica de Linux.
-* **Ferramentas:** Git/GitHub.
+* **Conceitos de Segurança:** Análise de Incidentes (Blue Team), Testes de Penetração (Red Team), Governança (LGPD, Gestão de Riscos), Análise de Logs, Threat Intelligence.
+* **Redes e Sistemas:** Protocolos (TCP, DNS, HTTP), Administração Básica de Linux, Hashing Criptográfico.
+* **Ferramentas:** Git/GitHub, APIs REST.
 
 ---
 
-##  Contato
+## Contato
 
 Vamos nos conectar!
 
-* **LinkedIn:** [linkedin.com/in/analuisavaleriano](https://linkedin.com/in/analuisavaleriano) 
-* **GitHub:** [github.com/Anavalerianob](https://github.com/Anavalerianob) 
+* **LinkedIn:** [linkedin.com/in/analuisavaleriano](https://linkedin.com/in/analuisavaleriano)
+* **GitHub:** [github.com/Anavalerianob](https://github.com/Anavalerianob)
