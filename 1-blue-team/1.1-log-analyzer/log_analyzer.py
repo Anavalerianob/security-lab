@@ -5,14 +5,9 @@
 log_analyzer.py
 
 Descrição:
-Este script analisa logs de autenticação do Linux (ex: /var/log/auth.log)
+Este script analisa logs de autenticação do Linux 
 para identificar tentativas de login falhas, logins bem-sucedidos e
 potenciais ataques de força bruta.
-
-Habilidades Demonstradas:
-- Python (argparse, re, collections.Counter, file I/O)
-- Análise de Logs
-- Resposta a Incidentes (Identificação de Ameaças)
 
 Autor: Ana Luísa Valeriano Bomfim
 Data: 8 de Novembro de 2025
@@ -22,8 +17,7 @@ import re
 import argparse
 from collections import Counter
 
-# --- Constantes de Cores (para melhor visualização) ---
-# Usamos códigos ANSI para colorir a saída no terminal
+# Para colorir a saída no terminal
 C_RED = '\033[91m'
 C_GREEN = '\033[92m'
 C_YELLOW = '\033[93m'
@@ -32,7 +26,7 @@ C_END = '\033[0m'
 
 # --- Definições de Regex ---
 
-# Regex para encontrar falhas de login (funciona para usuários válidos e inválidos)
+# Regex para encontrar falhas de login.
 # Ex: Nov  8 14:15:01 sshd[1234]: Failed password for invalid user admin from 1.2.3.4 port 12345
 # Captura: (Timestamp), (Usuário), (IP)
 FAILED_REGEX = re.compile(
@@ -67,7 +61,7 @@ def parse_logs(logfile_path):
                     timestamp, user, ip = failed_match.groups()
                     failed_attempts_by_ip[ip] += 1
                     failed_attempts_by_user[user.strip()] += 1
-                    continue  # Pula para a próxima linha, já encontramos o que queríamos
+                    continue  # Pula para a próxima linha, já encontrou o que quería
 
                 # 2. Checa por sucessos (só se não for uma falha)
                 accepted_match = ACCEPTED_REGEX.search(line)
@@ -95,7 +89,7 @@ def generate_report(logfile, threshold, failed_by_ip, failed_by_user, successful
     print(f"🛡️  {C_BOLD}Relatório de Análise do Log: {logfile}{C_END} 🛡️")
     print("="*70)
 
-    # --- Seção 1: Alertas de Brute Force ---
+    # --- Seção 1: Alertas de força bruta---
     print(f"\n{C_RED}{C_BOLD}[!] ALERTA: Possíveis Ataques de Força Bruta (Threshold: {threshold} falhas){C_END}")
     found_bruteforce = False
     # Itera sobre os IPs que tiveram falhas
