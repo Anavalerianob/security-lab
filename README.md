@@ -46,7 +46,7 @@ Scripts focados em conformidade, gestão de riscos e proteção de dados.
 
 * **[3.1 - Scanner de Dados Sensíveis (LGPD)](/3-governance-lgpd/3.1-sensitive-data-scanner/)**
     * **Descrição:** Script que varre arquivos (`.txt`, `.csv`) em um diretório local em busca de padrões que correspondam a dados sensíveis (ex: CPFs, e-mails), usando expressões regulares (Regex).
-    * [cite_start]**Habilidades:** `Python`, `Regex`, `Governança (LGPD/DLP)`. [cite: 31]
+    * **Habilidades:** `Python`, `Regex`, `Governança (LGPD/DLP)`.
 
 ---
 
@@ -55,9 +55,9 @@ Scripts focados em conformidade, gestão de riscos e proteção de dados.
 As principais ferramentas e conceitos que estou aplicando neste laboratório incluem:
 
 * **Linguagem:** Python
-* [cite_start]**Conceitos de Segurança:** Análise de Incidentes (Blue Team), Testes de Penetração (Recon), Governança (LGPD, Gestão de Riscos), Análise de Logs. [cite: 31]
-* [cite_start]**Redes e Sistemas:** Protocolos (TCP, DNS, HTTP), Administração Básica de Linux. [cite: 32]
-* [cite_start]**Ferramentas:** Git/GitHub. [cite: 33]
+* **Conceitos de Segurança:** Análise de Incidentes (Blue Team), Testes de Penetração (Recon), Governança (LGPD, Gestão de Riscos), Análise de Logs. 
+* **Redes e Sistemas:** Protocolos (TCP, DNS, HTTP), Administração Básica de Linux.
+* **Ferramentas:** Git/GitHub.
 
 ---
 
