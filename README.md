@@ -1,6 +1,6 @@
-# 🔬 Security Lab de Ana Luísa Valeriano
+# Security Lab de Ana Luísa Valeriano
 
-Olá! Este repositório é o meu laboratório pessoal de cibersegurança, onde aplico e documento meus estudos em projetos práticos.
+Este repositório é o meu laboratório pessoal de cibersegurança, onde aplico e documento meus estudos em projetos práticos.
 
 Eu sou **Ana Luísa Valeriano Bomfim**, estudante de Ciência da Computação na UFJ e com grande interesse pela área de Segurança da Informação. Meu foco é o desenvolvimento de uma carreira em **Blue Team** e **testes de penetração**.
 
