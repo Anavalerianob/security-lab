@@ -12,7 +12,7 @@ Este espaço serve como um portfólio técnico para demonstrar minhas habilidade
 
 Aqui estão os scripts e ferramentas que desenvolvi, organizados por área:
 
-### 1. 🛡️ Blue Team (Defesa e Análise)
+### 1.  Blue Team (Defesa e Análise)
 
 Projetos focados em detecção, monitoramento e resposta a incidentes.
 
@@ -24,7 +24,7 @@ Projetos focados em detecção, monitoramento e resposta a incidentes.
     * **Descrição:** Script que consome a API do AbuseIPDB (ou outra) para verificar se um endereço IP é conhecido por atividades maliciosas (Spam, C2, etc.).
     * **Habilidades:** `Python`, `Consumo de API`, `Threat Intelligence`.
 
-### 2. 🎯 Offensive Security (Red Team & Pentest)
+### 2.  Offensive Security (Red Team & Pentest)
 
 Ferramentas e scripts que simulam as fases de um ataque, desde o reconhecimento até a pós-exploração.
 
@@ -40,7 +40,7 @@ Ferramentas e scripts que simulam as fases de um ataque, desde o reconhecimento 
     * **Descrição:** Par de scripts (servidor/cliente) para estabelecer um shell reverso básico (Fase: Exploração/C2).
     * **Habilidades:** `Python (Sockets)`, `Pós-Exploração`.
 
-### 3. ⚖️ Governança e LGPD
+### 3.  Governança e LGPD
 
 Scripts focados em conformidade, gestão de riscos e proteção de dados.
 
@@ -50,7 +50,7 @@ Scripts focados em conformidade, gestão de riscos e proteção de dados.
 
 ---
 
-## 🛠️ Tecnologias e Conceitos
+##  Tecnologias e Conceitos
 
 As principais ferramentas e conceitos que estou aplicando neste laboratório incluem:
 
@@ -61,9 +61,9 @@ As principais ferramentas e conceitos que estou aplicando neste laboratório inc
 
 ---
 
-## 📬 Contato
+##  Contato
 
 Vamos nos conectar!
 
-* [cite_start]**LinkedIn:** [linkedin.com/in/analuisavaleriano](https://linkedin.com/in/analuisavaleriano) [cite: 4]
-* [cite_start]**GitHub:** [github.com/Anavalerianob](https://github.com/Anavalerianob) [cite: 5]
+* **LinkedIn:** [linkedin.com/in/analuisavaleriano](https://linkedin.com/in/analuisavaleriano) 
+* **GitHub:** [github.com/Anavalerianob](https://github.com/Anavalerianob) 
