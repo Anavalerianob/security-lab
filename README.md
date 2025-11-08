@@ -2,7 +2,7 @@
 
 Olá! Este repositório é o meu laboratório pessoal de cibersegurança, onde aplico e documento meus estudos em projetos práticos.
 
-[cite_start]Eu sou **Ana Luísa Valeriano Bomfim** [cite: 2][cite_start], estudante de Ciência da Computação na UFJ [cite: 9] e apaixonada pela área de Segurança da Informação. [cite_start]Meu foco é o desenvolvimento de uma carreira em **Blue Team** e **testes de penetração**[cite: 6].
+Eu sou **Ana Luísa Valeriano Bomfim**, estudante de Ciência da Computação na UFJ e apaixonada pela área de Segurança da Informação. Meu foco é o desenvolvimento de uma carreira em **Blue Team** e **testes de penetração**.
 
 Este espaço serve como um portfólio técnico para demonstrar minhas habilidades em Python, análise de logs, reconhecimento de redes e governança.
 
