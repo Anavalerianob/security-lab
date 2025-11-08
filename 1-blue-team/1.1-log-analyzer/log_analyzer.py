@@ -9,7 +9,7 @@ para identificar tentativas de login falhas, logins bem-sucedidos e
 potenciais ataques de força bruta.
 
 Autor: Ana Luísa Valeriano Bomfim
-Data: 8 de Novembro de 2025
+Data: 12 de Janeiro de 2025
 """
 
 import re
