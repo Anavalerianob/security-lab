@@ -8,13 +8,9 @@ Descrição:
 Verifica a reputação de um endereço IP usando a API do AbuseIPDB
 para determinar se é malicioso (associado a spam, C2, etc.).
 
-Habilidades Demonstradas:
-- Python (argparse, requests, json, os, sys)
-- Consumo de API (REST)
-- Threat Intelligence (Inteligência de Ameaças)
 
 Autor: Ana Luísa Valeriano Bomfim
-Data: 8 de Novembro de 2025
+Data: 01 de fevereiro de 2025
 """
 
 import requests
