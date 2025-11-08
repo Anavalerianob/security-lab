@@ -24,17 +24,21 @@ Projetos focados em detecção, monitoramento e resposta a incidentes.
     * **Descrição:** Script que consome a API do AbuseIPDB (ou outra) para verificar se um endereço IP é conhecido por atividades maliciosas (Spam, C2, etc.).
     * **Habilidades:** `Python`, `Consumo de API`, `Threat Intelligence`.
 
-### 2. 🔎 Pentest (Reconhecimento)
+### 2. 🎯 Offensive Security (Red Team & Pentest)
 
-Ferramentas para automatizar a fase de reconhecimento (reconnaissance) em testes de penetração.
+Ferramentas e scripts que simulam as fases de um ataque, desde o reconhecimento até a pós-exploração.
 
-* **[2.1 - Simple Port Scanner](/2-pentest-recon/2.1-port-scanner/)**
-    * **Descrição:** Um scanner de portas TCP simples, construído com sockets Python, para verificar portas abertas em um host alvo.
-    * **Habilidades:** `Python`, `Redes (TCP/IP)`, `Scripting de Segurança`.
+* **[2.1 - Simple Port Scanner](/2-offensive-security/2.1-port-scanner/)**
+    * **Descrição:** Scanner de portas TCP para identificar serviços abertos em um alvo (Fase: Reconhecimento).
+    * **Habilidades:** `Python`, `Redes (TCP/IP)`.
 
-* **[2.2 - Enumerador de Subdomínios](/2-pentest-recon/2.2-subdomain-enumerator/)**
-    * **Descrição:** Ferramenta que utiliza uma wordlist para fazer consultas DNS e descobrir subdomínios válidos de um domínio alvo.
-    * **Habilidades:** `Python`, `Redes (DNS)`, `Pentest (Recon)`.
+* **[2.2 - Enumerador de Subdomínios](/2-offensive-security/2.2-subdomain-enumerator/)**
+    * **Descrição:** Ferramenta para descobrir subdomínios válidos de um alvo (Fase: Reconhecimento).
+    * **Habilidades:** `Python`, `Redes (DNS)`.
+
+* **[2.3 - Basic Reverse Shell](/2-offensive-security/2.3-simple-reverse-shell/)**
+    * **Descrição:** Par de scripts (servidor/cliente) para estabelecer um shell reverso básico (Fase: Exploração/C2).
+    * **Habilidades:** `Python (Sockets)`, `Pós-Exploração`.
 
 ### 3. ⚖️ Governança e LGPD
 
